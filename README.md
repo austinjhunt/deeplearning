@@ -4,4 +4,4 @@ This repository contains code for practicing deep learning, created initially fo
 
 # Data
 
-The datasets used in the repo are ignored by git due to the size of the files and are instead housed [in Google Drive.](https://drive.google.com/drive/u/0/folders/12isGu2TX8a8N4hsYYnQm4aNDbe-BM6rk)
+The datasets used in the repo are ignored by git due to the size of the files and are instead housed [in Google Drive.](https://drive.google.com/drive/folders/12isGu2TX8a8N4hsYYnQm4aNDbe-BM6rk?usp=sharing)
