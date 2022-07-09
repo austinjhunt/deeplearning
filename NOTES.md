@@ -1,4 +1,8 @@
-# [Sigmoid Functions](https://www.youtube.com/watch?v=Aj7O9qRNJPY)
+# Notes
+
+These are just some notes about different deep learning topics compiled from various resources while practicing the hands-on coding.
+
+## [Sigmoid Functions](https://www.youtube.com/watch?v=Aj7O9qRNJPY)
 
 - Example: predict high school drop outs
 - Model outputs unbounded score, -inf, +inf
@@ -15,7 +19,7 @@
         - if score goes from 0 to -1, probability of drop out drops sharply, doesn't just decrease linearly.
       - now assume score is 9 and goes to 10. not a significant change in probability of drop out, relatively speaking. rate of change drops as you get toward boundaries of your x axis
 
-## The math
+### The math
 
 $$ p(s) = \frac{1}{1 + e^{-s}} = (1 + e^{-s})^{-1}$$
 last part of equation is helpful for obtaining derivative
@@ -39,7 +43,7 @@ $$
 
 derivative of sigmoid with respect to s/the score is p \* 1-p
 
-# [Softmax Loss Function](https://www.youtube.com/watch?v=8ps_JEW42xs)
+## [Softmax Loss Function](https://www.youtube.com/watch?v=8ps_JEW42xs)
 
 - comes up a lot in ML, especially with neural networks
 - multidimensional, multiple classes that you are trying to predict
